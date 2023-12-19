@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function HeroSection() {
   return (
-    <div className="section-container bg-white py-12">
+    <section className="section-container bg-white py-12">
       <div className="grid  grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="flex relative flex-col order-2 lg:order-1 items-center lg:items-start gap-5 text-center lg:text-left z-0">
           <Image
@@ -46,7 +46,7 @@ function HeroSection() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

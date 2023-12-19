@@ -4,7 +4,7 @@ import Collection from "./collection";
 
 function CollectionFeatured() {
   return (
-    <div className="bg-[#D9E0EC33]">
+    <section className="bg-[#D9E0EC33]">
       <div className="section-container py-16">
         <h2 className="text-[28px] font-bold text-black mb-12 font-integralcf">
           Collection Featured NFTs
@@ -17,7 +17,7 @@ function CollectionFeatured() {
           }
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
