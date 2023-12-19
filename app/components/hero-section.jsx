@@ -4,9 +4,16 @@ import Image from 'next/image';
 function HeroSection() {
   return (
     <div className="section-container bg-white py-12">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="flex flex-col order-2 lg:order-1 items-center lg:items-start gap-5 text-center lg:text-left">
-          <h1 className="text-black text-[40px] font-bold">
+      <div className="grid  grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="flex relative flex-col order-2 lg:order-1 items-center lg:items-start gap-5 text-center lg:text-left z-0">
+          <Image
+            src="/image/hero-dot.png"
+            alt="NFT Hero Section"
+            width={196}
+            height={154}
+            className='absolute bottom-12 -left-12 -z-10 hidden lg:block'
+          />
+          <h1 className="text-black text-[40px] font-bold font-integralcf">
             Discover, and collect Digital Art  NFTs
           </h1>
           <p className="text-xl text-[#565656]">
@@ -32,7 +39,7 @@ function HeroSection() {
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <Image
-            src="/hero-image.png"
+            src="/image/hero-image.png"
             alt="NFT Hero Section"
             width={536}
             height={440}

@@ -1,8 +1,18 @@
 import { DM_Sans } from 'next/font/google';
+import localFont from 'next/font/local';
 import Navbar from './components/navbar';
 import './globals.css';
 
-const dm_sans = DM_Sans({ subsets: ['latin'] });
+// Font files can be colocated inside of `app`
+const integralcf = localFont({
+  src: './integralcf-bold.otf',
+  variable: '--font-integralcf'
+})
+
+const dm_sans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-dm-sans'
+});
 
 export const metadata = {
   title: 'NFT Marketplaces.',
@@ -12,9 +22,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={dm_sans.className}>
+      <body className={`${dm_sans.variable} ${integralcf.variable}`}>
         <Navbar />
-        {children}
+        <main className='font-dm-sans'>
+          {children}
+        </main>
       </body>
     </html>
   )

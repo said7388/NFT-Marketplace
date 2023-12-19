@@ -14,7 +14,11 @@ module.exports = {
       },
       colors: {
         'primary': '#3D00B7',
-      }
+      },
+      fontFamily: {
+        'dm-sans': ['var(--font-dm-sans)'],
+        'integralcf': ['var(--font-integralcf)'],
+      },
     },
   },
   plugins: [],
