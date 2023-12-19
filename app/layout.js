@@ -1,7 +1,7 @@
 import { DM_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
-import Footer from './components/footer';
-import Navbar from './components/navbar';
+import Footer from './components/layout/footer';
+import Navbar from './components/layout/navbar';
 import './globals.css';
 
 // Font files can be colocated inside of `app`
