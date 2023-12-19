@@ -3,7 +3,7 @@ import ServiceSection from "./components/service-section";
 
 export default function Home() {
   return (
-    <main>
+    <main className="font-dm-sans">
       <HeroSection />
       <ServiceSection />
     </main>

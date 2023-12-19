@@ -1,5 +1,6 @@
 import { DM_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
+import Footer from './components/footer';
 import Navbar from './components/navbar';
 import './globals.css';
 
@@ -24,9 +25,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${dm_sans.variable} ${integralcf.variable}`}>
         <Navbar />
-        <main className='font-dm-sans'>
-          {children}
-        </main>
+        {children}
+        <Footer />
       </body>
     </html>
   )
