@@ -1,8 +1,8 @@
-import { DM_Sans } from 'next/font/google'
-import Navbar from './components/navbar'
-import './globals.css'
+import { DM_Sans } from 'next/font/google';
+import Navbar from './components/navbar';
+import './globals.css';
 
-const dm_sans = DM_Sans({ subsets: ['latin'] })
+const dm_sans = DM_Sans({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'NFT Marketplaces.',

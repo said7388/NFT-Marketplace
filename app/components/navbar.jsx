@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       <header className="border-b-1 relative z-20 w-full border-b border-[#EFEFEF] bg-[#fff] after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-[#EFEFEF] lg:border-[#EFEFEF] lg:backdrop-blur-sm lg:after:hidden">
-        <div className="relative mx-auto max-w-full px-6 lg:max-w-6xl xl:max-w-7xl 2xl:max-w-[96rem]">
+        <div className="section-container">
           <nav
             aria-label="main navigation"
             className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
@@ -18,7 +18,7 @@ export default function Navbar() {
               id="NFT"
               aria-label="NFT logo"
               aria-current="page"
-              className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-primary focus:text-primary focus:outline-none focus-visible:outline-none lg:px-8"
+              className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-primary focus:text-primary focus:outline-none focus-visible:outline-none lg:pr-8"
               href="javascript:void(0)"
             >
               <svg width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,13 +109,13 @@ export default function Navbar() {
               </li>
               <li className="flex items-center py-4 lg:py-0">
                 <button
-                  className="flex items-center gap-2 px-10 h-12 bg-primary text-white rounded-full">
+                  className="flex items-center px-10 h-12 bg-primary text-white rounded-full">
                   Upload
                 </button>
               </li>
               <li className="flex items-center py-4 lg:py-0">
                 <button
-                  className="flex items-center gap-2 px-5 h-12 bg-white border-2 border-primary rounded-full text-primary">
+                  className="flex items-center px-5 h-12 bg-white border-2 border-primary rounded-full text-primary">
                   Connect Wallet
                 </button>
               </li>
