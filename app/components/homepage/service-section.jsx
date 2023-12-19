@@ -25,6 +25,7 @@ function ServiceSection() {
               </p>
             </div>
           </div>
+          
           <div className="flex items-start gap-4">
             <Image
               src="/icons/service-2.svg"
