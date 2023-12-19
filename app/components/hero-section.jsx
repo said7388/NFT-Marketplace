@@ -19,7 +19,7 @@ function HeroSection() {
           <p className="text-xl text-[#565656]">
             Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
           </p>
-          <button className="flex items-center py-5 px-10 bg-primary text-white rounded-full text-xl">
+          <button className="py-4 px-12 rounded-full bg-primary text-center text-xl font-medium text-white shadow-lg shadow-blue-500/50 focus:outline-none focus:ring-4 focus:ring-blue-300 hover:shadow-none">
             Explore Now
           </button>
           <div className="flex items-center gap-6">

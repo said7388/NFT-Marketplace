@@ -108,14 +108,13 @@ export default function Navbar() {
                 </div>
               </li>
               <li className="flex items-center py-4 lg:py-0">
-                <button
-                  className="flex items-center px-10 h-12 bg-primary text-white rounded-full">
+                <button className="px-10 h-12 rounded-full bg-primary text-center text-xl font-medium text-white shadow-lg shadow-blue-500/50 focus:outline-none focus:ring-4 focus:ring-blue-300 hover:shadow-none transition-all">
                   Upload
                 </button>
               </li>
               <li className="flex items-center py-4 lg:py-0">
                 <button
-                  className="flex items-center px-5 h-12 bg-white border-2 border-primary rounded-full text-primary">
+                  className="flex items-center px-5 h-12 bg-white border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-white transition-all duration-100">
                   Connect Wallet
                 </button>
               </li>
