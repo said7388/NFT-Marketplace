@@ -28,7 +28,7 @@ function TopCollection() {
                           alt="collection-thumbnail"
                           width={60}
                           height={60}
-                          className="rounded-full w-full h-full"
+                          className="rounded-full w-full h-full cursor-pointer"
                         />
                         {
                           item.verify &&
@@ -41,7 +41,9 @@ function TopCollection() {
                         }
                       </div>
                       <div className="flex flex-col gap-y-2.5">
-                        <p className="text-base font-medium">{item.title}</p>
+                        <p className="text-base font-medium transition-all duration-200 hover:text-primary cursor-pointer">
+                          {item.title}
+                        </p>
                         <p className="flex items-center gap-1">
                           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
                             <g clip-path="url(#clip0_0_288)">
