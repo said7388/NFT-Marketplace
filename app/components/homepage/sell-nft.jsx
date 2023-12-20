@@ -16,11 +16,11 @@ function SellNFT() {
                 className="h-full rounded-lg"
               />
               <Image
-                src="/image/men-1.png"
+                src="/image/men-2.webp"
                 width={80}
                 height={80}
                 alt="nft"
-                className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-lg"
+                className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-full border-4 border-white"
               />
             </div>
             <div className="h-[214px] relative">
@@ -32,11 +32,11 @@ function SellNFT() {
                 className="h-full rounded-lg"
               />
               <Image
-                src="/image/women.png"
+                src="/image/men-1.png"
                 width={80}
                 height={80}
                 alt="nft"
-                className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-lg"
+                className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-full border-4 border-white"
               />
             </div>
           </div>
@@ -50,11 +50,11 @@ function SellNFT() {
                 className="h-full rounded-lg"
               />
               <Image
-                src="/image/women.png"
+                src="/image/women.webp"
                 width={80}
                 height={80}
                 alt="nft"
-                className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-lg"
+                className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-full border-4 border-white"
               />
             </div>
           </div>

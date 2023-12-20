@@ -20,7 +20,7 @@ export const collections = [
     count: 54,
     author: {
       name: "Akil",
-      photo: "/image/men-1.png"
+      photo: "/image/men-2.webp"
     },
     items: [
       "https://source.unsplash.com/pVoEPpLw818",

@@ -6,7 +6,7 @@ export const topCollections = [
     thumbnail: "https://source.unsplash.com/F56Y7dgrAkc",
     author: {
       name: "The Futr Abstr",
-      photo: "/image/men-1.png"
+      photo: "/image/men-2.webp"
     },
     price: 0.24,
   },
@@ -28,7 +28,7 @@ export const topCollections = [
     thumbnail: "https://source.unsplash.com/Tyg0rVhOTrE",
     author: {
       name: "The Futr Abstr",
-      photo: "/image/men-1.png"
+      photo: "/image/men-2.webp"
     },
     price: 0.25,
   },
