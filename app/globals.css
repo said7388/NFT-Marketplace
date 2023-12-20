@@ -19,3 +19,34 @@
 .section-container {
   @apply relative mx-auto max-w-full px-6 lg:max-w-6xl xl:max-w-7xl 2xl:max-w-[96rem];
 }
+
+.card {
+  @apply absolute top-0 w-[400px] h-[440px] rounded-3xl bg-white p-6 shadow-[1px_1px_7px_rgba(0,0,0,0.65)] bg-cover bg-no-repeat cursor-pointer;
+}
+
+.card-container:hover .card,
+.card-container.hover .card {
+  @apply ml-[-10em] scale-95 opacity-90;
+}
+
+.card-container:hover .card:hover,
+.card-container.hover .card:hover,
+.card-container:hover .card.hover,
+.card-container.hover .card.hover {
+  @apply z-[11] scale-100 opacity-100;
+}
+
+.card-container:hover .card1,
+.card-container.hover .card1 {
+  @apply translate-x-0 scale-100;
+}
+
+.card-container:hover .card2,
+.card-container.hover .card2 {
+  @apply left-[0%] scale-100;
+}
+
+.card-container:hover .card3,
+.card-container.hover .card3 {
+  @apply left-full translate-x-0;
+}
