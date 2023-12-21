@@ -4,12 +4,13 @@ import Footer from './components/layout/footer';
 import Navbar from './components/layout/navbar';
 import './globals.css';
 
-// Font files can be colocated inside of `app`
+// Load local fonts
 const integralcf = localFont({
   src: './integralcf-bold.otf',
   variable: '--font-integralcf'
 })
 
+// Load Google fonts DM Sans
 const dm_sans = DM_Sans({
   subsets: ['latin'],
   variable: '--font-dm-sans'
@@ -17,8 +18,8 @@ const dm_sans = DM_Sans({
 
 export const metadata = {
   title: 'NFT Marketplaces.',
-  description: 'Sell your NFT token in this platform.',
-}
+  description: 'Sell and buy your NFTs token in this platform.',
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -30,4 +31,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   )
-}
+};

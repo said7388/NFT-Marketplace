@@ -10,7 +10,6 @@ function DiscoverNFT() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [filteredNfts, setFilteredNfts] = useState(nfts);
 
-
   useEffect(() => {
     if (selectedCategory === 'all') {
       setFilteredNfts(nfts);

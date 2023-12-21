@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from "react";
 
 export default function Navbar() {
-  const [isToggleOpen, setIsToggleOpen] = useState(false)
+  const [isToggleOpen, setIsToggleOpen] = useState(false);
 
   return (
     <header className="border-b-1 relative z-20 w-full border-b border-[#EFEFEF] bg-[#fff] after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-[#EFEFEF] lg:border-[#EFEFEF] lg:backdrop-blur-sm lg:after:hidden font-dm-sans">
