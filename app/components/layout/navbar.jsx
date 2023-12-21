@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 import { useState } from "react";
 
 export default function Navbar() {
@@ -12,7 +13,7 @@ export default function Navbar() {
           className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
           role="navigation"
         >
-          <a
+          <Link
             aria-label="NFT logo"
             aria-current="page"
             className="flex items-center py-4 lg:pr-8"
@@ -21,7 +22,7 @@ export default function Navbar() {
             <svg width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0.7 18H6.1V8.92H6.6L12.32 18H18.54V1.2H13.14V10.28H12.64L7.06 1.2H0.7V18ZM19.9422 18H25.4822V12.1H34.6222V8.1H25.4822V5.82H35.0422V1.2H19.9422V18ZM53.9622 1.2H36.3422V5.82H42.3822V18H47.9222V5.82H53.9622V1.2ZM55.2625 18H70.4025V13.56H60.8025V11.42H70.0425V7.78H60.8025V5.64H70.4025V1.2H55.2625V18ZM89.2694 18L86.2694 12.48C87.6894 11.48 88.7094 9.88 88.7094 7.62C88.7094 3.2 86.0894 1.2 81.4294 1.2H71.8094V18H77.3494V13.66H81.5494L83.8294 18H89.2694ZM77.3494 5.8H81.0494C82.4494 5.8 83.1694 6.48 83.1694 7.66C83.1694 8.84 82.4494 9.52 81.0494 9.52H77.3494V5.8ZM97.7625 18.56C103.523 18.58 106.363 16.76 106.363 13.1C106.363 8.5 101.783 8.4 98.4425 7.84L96.6625 7.54C95.3825 7.34 95.0825 6.76 95.0825 6.28C95.0825 5.52 95.8425 4.96 97.6825 4.96C99.8025 4.96 100.743 5.66 100.943 6.78H105.882C105.983 1.98 102.622 0.639999 97.8025 0.639999C92.4625 0.639999 89.7625 2.68 89.7625 6C89.7625 10.3 93.5825 10.68 96.7625 11.2L98.9225 11.54C100.563 11.78 100.863 12.34 100.863 12.88C100.863 13.66 99.8825 14.26 97.7625 14.24C95.3625 14.22 94.4025 13.52 94.3425 12.38H89.3625C89.2225 16.74 91.9625 18.54 97.7625 18.56Z" fill="#3D00B7" />
             </svg>
-          </a>
+          </Link>
           <button
             className={`relative order-10 block h-10 w-10 self-center lg:hidden
                 ${isToggleOpen
@@ -57,40 +58,40 @@ export default function Navbar() {
               }`}
           >
             <li className="flex items-center">
-              <a
+              <Link
                 role="menuitem"
                 aria-current="page"
                 aria-haspopup="false"
                 className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-primary focus:text-primary focus:outline-none focus-visible:outline-none xl:px-8"
-                href="javascript:void(0)"
+                href="/"
               >
                 <span>Marketplace</span>
-              </a>
+              </Link>
             </li>
             <li className="flex items-center">
-              <a
+              <Link
                 role="menuitem"
                 aria-haspopup="false"
                 className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-primary focus:text-primary focus:outline-none focus-visible:outline-none xl:px-8"
-                href="javascript:void(0)"
+                href="/"
               >
                 <span>Resource</span>
-              </a>
+              </Link>
             </li>
             <li className="flex items-center">
-              <a
+              <Link
                 role="menuitem"
                 aria-haspopup="false"
                 className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-primary focus:text-primary focus:outline-none focus-visible:outline-none xl:px-8"
-                href="javascript:void(0)"
+                href="/"
               >
                 <span>About</span>
-              </a>
+              </Link>
             </li>
             <li className="flex items-center">
               <div
                 className="flex items-center"
-                href="javascript:void(0)"
+                href="/"
               >
                 <div className="relative my-6">
                   <input

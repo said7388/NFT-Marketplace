@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -9,14 +10,14 @@ export default function Footer() {
               className="col-span-4 md:col-span-9 lg:col-span-2"
               aria-labelledby="footer-header"
             >
-              <a
+              <Link
                 aria-label="NFT logo"
                 aria-current="page"
                 className="text-2xl font-bold text-black font-integralcf"
                 href="/"
               >
                 <span>NFters</span>
-              </a>
+              </Link>
               <p className="mt-6">
                 The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
               </p>
@@ -33,52 +34,52 @@ export default function Footer() {
               </h3>
               <ul>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     All NFTs
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     New
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Art
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Sports
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Utility
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Music
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -94,44 +95,44 @@ export default function Footer() {
               </h3>
               <ul>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Documentation
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Training
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     System status
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     {"FAQ's"}
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2 leading-6">
-                  <a
-                    href="javascript:void(0)"
+                  <Link
+                    href="/"
                     className="transition-colors duration-300 text-[#3D3D3D] font-medium hover:text-primary focus:text-primary"
                   >
                     Help Center
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
