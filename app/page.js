@@ -1,4 +1,5 @@
 import CollectionFeatured from "./components/homepage/collection-featured/index";
+import DiscoverNFT from "./components/homepage/discover-nfts";
 import HeroSection from "./components/homepage/hero-section";
 import SellNFT from "./components/homepage/sell-nft";
 import ServiceSection from "./components/homepage/service-section";
@@ -12,6 +13,7 @@ export default function Home() {
       <TopCollection />
       <CollectionFeatured />
       <SellNFT />
+      <DiscoverNFT />
     </main>
   )
 }

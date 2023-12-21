@@ -1,6 +1,6 @@
 // @flow strict
 
-import { topCollectionsOver } from "@/utils/top-collection";
+import { topCollectionsOver } from "@/utils/data/top-collection";
 import Image from "next/image";
 import CollectionList from "./collection-list";
 

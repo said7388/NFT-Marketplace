@@ -1,5 +1,5 @@
 // @flow strict
-import { collections } from "@/utils/collections";
+import { collections } from "@/utils/data/collections";
 import Collection from "./collection";
 
 function CollectionFeatured() {

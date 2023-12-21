@@ -1,7 +1,7 @@
 // @flow strict
 "use client";
 
-import { topCollections } from "@/utils/top-collection";
+import { topCollections } from "@/utils/data/top-collection";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -110,8 +110,11 @@ function CollectionList() {
                 </div>
                 <button
                   onClick={() => setSelectedCollection(item)}
-                  className="flex items-center px-5 py-2.5 w-fit bg-white border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-white transition-all duration-100">
-                  Place a bid
+                  className="group relative inline-flex items-center justify-start overflow-hidden px-5 py-2.5 w-fit border-2 border-primary rounded-full transition-all">
+                  <span className="-z-1 absolute left-0 top-0 h-0 w-0 bg-primary transition-all duration-500 ease-out group-hover:h-full group-hover:w-full" />
+                  <span className="z-10 w-full text-[15px] font-medium text-primary transition-colors duration-300 ease-in-out group-hover:text-white">
+                    Place a bid
+                  </span>
                 </button>
               </div>
             </div>

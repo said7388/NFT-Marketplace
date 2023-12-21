@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 
 export default function Navbar() {
@@ -112,8 +111,11 @@ export default function Navbar() {
             </li>
             <li className="flex items-center py-4 lg:py-0">
               <button
-                className="flex items-center px-5 h-12 bg-white border-2 border-primary rounded-full text-primary hover:bg-primary hover:text-white transition-all duration-100">
-                Connect Wallet
+                className="group relative inline-flex items-center justify-start overflow-hidden px-5 h-12 w-fit border-2 border-primary rounded-full transition-all">
+                <span className="-z-1 absolute left-0 top-0 h-0 w-0 bg-primary transition-all duration-500 ease-out group-hover:h-full group-hover:w-full" />
+                <span className="z-10 w-full text-[15px] font-medium text-primary transition-colors duration-300 ease-in-out group-hover:text-white">
+                  Connect Wallet
+                </span>
               </button>
             </li>
           </ul>
