@@ -15,7 +15,7 @@ function TopCollection() {
           </div>
           <div className="border-l border-[#ECECEC] pl-9">
             <h3 className="text-xl font-bold font-integralcf">Top Collections over </h3>
-            <p className="text-lg font-bold text-[#3D00B7] mt-2.5">Last 7 days</p>
+            <p className="text-lg font-bold text-primary mt-2.5">Last 7 days</p>
             <div className="flex flex-col divide-y mt-4">
               {
                 topCollectionsOver.map((item, i) => (
@@ -46,7 +46,7 @@ function TopCollection() {
                         </p>
                         <p className="flex items-center gap-1">
                           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
-                            <g clip-path="url(#clip0_0_288)">
+                            <g clipPath="url(#clip0_0_288)">
                               <path d="M14.6203 12.225L7.49994 16.575L0.374939 12.225L7.49994 0L14.6203 12.225ZM7.49994 17.9719L0.374939 13.6219L7.49994 24L14.6249 13.6219L7.49994 17.9719Z" fill="black" />
                             </g>
                             <defs>

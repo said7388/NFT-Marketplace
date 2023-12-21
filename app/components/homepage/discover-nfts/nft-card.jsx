@@ -36,7 +36,7 @@ function NFTCard({ nft }) {
         <div className="mt-2.5 flex justify-between items-center">
           <p className="flex gap-2 items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none">
-              <g clip-path="url(#clip0_649_14)">
+              <g clipPath="url(#clip0_649_14)">
                 <path d="M9.24746 8.15574L4.80473 10.9395L0.35907 8.15574L4.80473 0.332336L9.24746 8.15574ZM4.80473 11.8335L0.35907 9.04968L4.80473 15.6912L9.25038 9.04968L4.80473 11.8335V11.8335Z" fill="#00AC4F" />
               </g>
               <defs>

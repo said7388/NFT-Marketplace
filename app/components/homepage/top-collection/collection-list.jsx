@@ -47,7 +47,7 @@ function CollectionList() {
               </p>
               <p className="flex items-center gap-2.5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
-                  <g clip-path="url(#clip0_0_213)">
+                  <g clipPath="url(#clip0_0_213)">
                     <path d="M12.671 11.4564L6.50004 15.3231L0.325043 11.4564L6.50004 0.589722L12.671 11.4564ZM6.50004 16.5647L0.325043 12.6981L6.50004 21.9231L12.675 12.6981L6.50004 16.5647Z" fill="#3A3A3A" />
                   </g>
                   <defs>
@@ -91,7 +91,7 @@ function CollectionList() {
                   />
                   <p className="flex items-center gap-1 text-xs text-[#00AC4F] font-bold p-2 rounded-md border border-[#00AC4F]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="9" height="14" viewBox="0 0 9 14" fill="none">
-                      <g clip-path="url(#clip0_0_238)">
+                      <g clipPath="url(#clip0_0_238)">
                         <path d="M8.31533 7.13126L4.26566 9.66876L0.213318 7.13126L4.26566 0L8.31533 7.13126ZM4.26566 10.4836L0.213318 7.9461L4.26566 14L8.318 7.9461L4.26566 10.4836Z" fill="#00AC4F" />
                       </g>
                       <defs>

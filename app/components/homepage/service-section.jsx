@@ -6,7 +6,7 @@ function ServiceSection() {
     <section className="bg-[#D9E0EC33]">
       <div className="section-container py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
-          <h2 className='font-bold text-[28px] text-black font-integralcf'>
+          <h2 className='font-bold text-[20px] md:text-[28px] text-black font-integralcf'>
             The amazing NFT art of the world here
           </h2>
           <div className="flex items-start gap-4">

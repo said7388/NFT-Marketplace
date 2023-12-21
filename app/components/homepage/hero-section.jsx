@@ -13,7 +13,7 @@ function HeroSection() {
             height={154}
             className='absolute bottom-12 -left-12 -z-10 hidden lg:block'
           />
-          <h1 className="text-black text-[40px] font-bold font-integralcf">
+          <h1 className="text-black text-[22px] sm:text-[40px] font-bold font-integralcf">
             Discover, and collect Digital Art  NFTs
           </h1>
           <p className="text-xl text-[#565656]">
@@ -23,16 +23,16 @@ function HeroSection() {
             Explore Now
           </button>
           <div className="flex items-center gap-6">
-            <div className="">
-              <h3 className="text-[40px] text-black font-bold">98k+</h3>
+            <div>
+              <h3 className="text-[25px] sm:text-[40px] text-black font-bold">98k+</h3>
               <p className="text-xl text-[#565656] leading-8">Artwork</p>
             </div>
-            <div className="">
-              <h3 className="text-[40px] text-black font-bold">12k+</h3>
+            <div>
+              <h3 className="text-[25px] sm:text-[40px] text-black font-bold">12k+</h3>
               <p className="text-xl text-[#565656] leading-8">Auction</p>
             </div>
-            <div className="">
-              <h3 className="text-[40px] text-black font-bold">15k+</h3>
+            <div>
+              <h3 className="text-[25px] sm:text-[40px] text-black font-bold">15k+</h3>
               <p className="text-xl text-[#565656] leading-8">Artist</p>
             </div>
           </div>
@@ -65,7 +65,7 @@ function HeroSection() {
                     <p className="text-xs font-semibold">Current Bid</p>
                     <p className='text-base font-bold flex items-center gap-2.5'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
-                        <g clip-path="url(#clip0_0_143)">
+                        <g clipPath="url(#clip0_0_143)">
                           <path d="M12.671 11.3796L6.50006 15.2463L0.325058 11.3796L6.50006 0.512939L12.671 11.3796ZM6.50006 16.4879L0.325058 12.6213L6.50006 21.8463L12.6751 12.6213L6.50006 16.4879Z" fill="white" />
                         </g>
                         <defs>
@@ -118,7 +118,7 @@ function HeroSection() {
                     <p className="text-xs font-semibold">Current Bid</p>
                     <p className='text-base font-bold flex items-center gap-2.5'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
-                        <g clip-path="url(#clip0_0_143)">
+                        <g clipPath="url(#clip0_0_143)">
                           <path d="M12.671 11.3796L6.50006 15.2463L0.325058 11.3796L6.50006 0.512939L12.671 11.3796ZM6.50006 16.4879L0.325058 12.6213L6.50006 21.8463L12.6751 12.6213L6.50006 16.4879Z" fill="white" />
                         </g>
                         <defs>
@@ -172,7 +172,7 @@ function HeroSection() {
                     <p className="text-xs font-semibold">Current Bid</p>
                     <p className='text-base font-bold flex items-center gap-2.5'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
-                        <g clip-path="url(#clip0_0_143)">
+                        <g clipPath="url(#clip0_0_143)">
                           <path d="M12.671 11.3796L6.50006 15.2463L0.325058 11.3796L6.50006 0.512939L12.671 11.3796ZM6.50006 16.4879L0.325058 12.6213L6.50006 21.8463L12.6751 12.6213L6.50006 16.4879Z" fill="white" />
                         </g>
                         <defs>

@@ -7,7 +7,7 @@ function SellNFT() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div className="grid grid-cols-2 gap-16 items-center">
           <div className="flex flex-col gap-y-12 items-end">
-            <div className="h-[300px] relative">
+            <div className="h-[180px] sm:h-[300px] relative">
               <Image
                 src="https://source.unsplash.com/6R1rq5yTl7g"
                 width={300}
@@ -23,7 +23,7 @@ function SellNFT() {
                 className="h-[80px] w-[80px] absolute -bottom-6 -right-6 rounded-full border-4 border-white"
               />
             </div>
-            <div className="h-[214px] relative">
+            <div className="h-[140px] sm:h-[214px] relative">
               <Image
                 src="https://source.unsplash.com/NUZ9jhRs-as"
                 width={194}
@@ -40,8 +40,8 @@ function SellNFT() {
               />
             </div>
           </div>
-          <div className="">
-            <div className="h-[265px] relative">
+          <div>
+            <div className="h-[160px] sm:h-[265px] relative">
               <Image
                 src="https://source.unsplash.com/c1rOy44wuts"
                 width={240}
@@ -60,7 +60,7 @@ function SellNFT() {
           </div>
         </div>
         <div className="flex flex-col gap-y-8">
-          <h2 className="text-3xl font-bold font-integralcf">
+          <h2 className="text-xl md:text-3xl font-bold font-integralcf">
             Create and sell your NFTs
           </h2>
           <p className="text-lg text-[#636363] mt-2">
