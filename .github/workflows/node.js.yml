@@ -26,4 +26,4 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run build
-    - run: pm2 start npm --name nextjs-app -- run start -- -p 3000
+    - run: npm start
