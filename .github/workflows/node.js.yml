@@ -26,4 +26,8 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run build
-    - run: npm start
+    - name: Deploy Application
+      run: |
+          pm2 stop nextjs-example || true
+          pm2 delete nextjs-example || true
+          pm2 start npm --name nextjs-app -- run start -- -p 3000
